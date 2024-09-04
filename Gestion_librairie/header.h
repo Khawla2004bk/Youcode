@@ -16,5 +16,6 @@ void AfficherLivres();
 void RechercherLivre();
 void MiseAjour();
 void SupprimerLivre();
+void AfficherNtotal();
 
 #endif
