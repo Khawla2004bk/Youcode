@@ -9,8 +9,7 @@ void Menu() {
     printf("\t3. Rechercher un livre\n");
     printf("\t4. Mise à jour la quantité d'un livre\n");
     printf("\t5. Supprimer un livre\n");
-    printf("\t6. \n");
-    printf("\t7. Quitter le programme\n");
+    printf("\t6. Quitter le programme\n");
 
     printf("Quel est votre choix: ");
     scanf("%d", &choix);
@@ -37,9 +36,7 @@ void Menu() {
             SupprimerLivre();
             Menu();
             break;
-        /*case 6:*/
-
-        case 7:
+        case 6:
             exit(0);
         default:
             printf("choix invalide");
