@@ -23,3 +23,6 @@
 
    * *Afficher le menu des choix*
         - le programme permet à l'utilisateur de préciser son choix à partir d'un menu.
+
+   * *Afficher le Nombre Total de Livres en Stock*
+        - Le programme calcule et affiche le nombre total de livres en stock, en additionnant les quantités de tous les livres.
