@@ -8,9 +8,9 @@
 int nb = 0;
 
 typedef struct {
-    char N[100][30];
-    char T[100][15];
-    char E[100][20];
+    char N[30];
+    char T[15];
+    char E[20];
 } Contact;
 
 Contact cont[100];

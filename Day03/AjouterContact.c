@@ -2,7 +2,6 @@
 
 void AjouterContact() {
     int n;
-    Contact cont[100];
 
     printf("Combien de contact voulez-vous ajouter: ");
     scanf("%d", &n);
