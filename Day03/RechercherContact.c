@@ -7,10 +7,12 @@ void RechercherContact() {
     scanf("%[^\n]", nom);
     getchar();
 
-    for (i = 0 ; i < nb; i++) {
+    for (int i = 0 ; i < nb; i++) {
         if (strcmp(cont[i].N, nom) == 0) {
             printf("Contact trouvé:\n\tNom: %s | Tel: %s | Email: %s\n", nom, cont[i].T, cont[i].E);
             break;
         }
+        else
+            printf("Contact non trouvé");
     }
 }
