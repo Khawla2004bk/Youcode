@@ -1,16 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int i, n, nb, s=0;
+    int i = 0, nb, n = 0, s = 0;
 
-    printf("Donner le nombre des élèments du série: ");
-    scanf("%d", &n);
+    printf("Donner le nombre des élèments du série:\n");
     
     
-    for (i = 0; i < n; i++) {
-        printf("Entrer la valeur %d: ", i+1);
-        scanf("%d", &nb);
-        s += nb;
+    while(1) {
+        if (nb == 0)
+            break;
+        
+        else {
+            printf("Entrer la valeur %d: ", i+1);
+            scanf("%d", &nb);
+            s += nb;
+            n++;
+            i++;
+        }
     }
     printf("La moyenne est: %d", s/n);
     
