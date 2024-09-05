@@ -20,10 +20,6 @@ int main() {
     printf("Entrez la chaine de caractères: ");
     scanf("%[^\n]", c);
 
-    if (strlen(c) > 0 && c[strlen(c) - 1] == '\n') {
-        c[strlen(c) - 1] = '\0';
-    }
-
     inverse(c);
 
     printf("Chaine inversée: %s\n", c);
