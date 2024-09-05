@@ -15,6 +15,7 @@ typedef struct {
 
 Contact cont[100];
 
+void Menu();
 void AjouterContact();
 void AfficherContact();
 void ModifierContact();
