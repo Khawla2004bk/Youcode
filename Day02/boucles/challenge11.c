@@ -22,6 +22,7 @@ int main() {
     if (n > 0) {
         float m = (float) s / n;
         printf("La moyenne est: %.2f", m);
+        printf("\n");
     }
     
     return 0;
