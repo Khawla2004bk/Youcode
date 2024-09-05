@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int max(int a, int b){
-    int max;
+int min(int a, int b) {
+    int min;
 
-    if(a > b)
-        max = a;
+    if(a>b)
+        min = b;
     else 
-        max = b;
+        min = a;
 
-    return max;
+    return min;
 }
 
 int main() {
@@ -20,7 +20,7 @@ int main() {
     printf("Entrez le nombre : ");
     scanf("%d", &b);
 
-    printf("Le max est %d", max(a, b));
+    printf("Le minimum est %d", min(a, b));
 
     return 0;
 }
