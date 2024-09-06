@@ -20,7 +20,7 @@ int main() {
     while (i <= end) {
         mil = (i + end) / 2;
         if (T[mil] == nb) {
-            rslt = mil;
+            nb = mil;
             break;
         }
 
@@ -31,7 +31,7 @@ int main() {
             end = mil - 1;
     }
 
-    if (rslt != -1)
+    if (nb != -1)
         printf("valeur trouvée");
     else
         printf("valeur non trouvée");
