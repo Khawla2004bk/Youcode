@@ -46,6 +46,11 @@ int main() {
         }
             
     }
+    
+    if (m > 12) {
+        printf("Date invalide");
+    }
+
     else {
         for (int i = 0; i < 7; i++) {
             if (m31[i] = m) {
