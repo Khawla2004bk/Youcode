@@ -16,4 +16,7 @@ int main() {
             j++;
     }
     printf("La longueur de cette chaine est: %d", j);
+
+
+    return 0;
 }

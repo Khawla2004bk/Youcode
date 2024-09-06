@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, fact;
+    int n;
     
     printf("Donner le nombre des éléments du tableau: ");
     scanf("%d", &n);

@@ -8,4 +8,6 @@ int main() {
     getchar();
     
     printf("Votre chaine est: %s", chaine);
+
+    return 0;
 }
