@@ -47,7 +47,7 @@ int main() {
             
     }
     
-    if (m > 12) {
+    if (m > 12 || m < 1) {
         printf("Date invalide");
     }
 
