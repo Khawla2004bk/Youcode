@@ -1,71 +1,41 @@
-# Exercices sur les Boucles en C
+# Exercices sur les Chaînes de Caractères en C
 
-## Challenge 1 : Table de Multiplication Inversée
+## Challenge 1 : Affichage d'une Chaîne
 
-Écrivez un programme C qui demande un nombre à l’utilisateur et affiche sa table de multiplication en ordre décroissant, de 10 à 1. Par exemple, pour le nombre 5, affichez :
+Écrivez un programme C qui lit une chaîne de caractères entrée par l'utilisateur et l'affiche à l'écran.
 
-`5 * 10 = 50 5 * 9 = 45 5 * 8 = 40 ... 5 * 1 = 5`
+## Challenge 2 : Longueur de la Chaîne
 
-## Challenge 2 : pyramide d'étoile
+Écrivez un programme C qui calcule et affiche la longueur d'une chaîne de caractères sans utiliser la fonction `strlen()`.
 
-`      *
-     ***
-    *****
-   *******
-  *********
- ***********
-*************`
+## Challenge 3 : Concaténation de Chaînes
 
-Écrire le programme pour avoir un pyramide d'étoile, le nombre des lignes à composer est demandé à l’utilisateur.(chaque ligne doit avoir un nombre premier d'étoiles).
+Écrivez un programme C qui lit deux chaînes de caractères et les concatène en une seule chaîne. Affichez la chaîne résultante.
 
-## Challenge 3 : Affichage des Nombres Premiers
+## Challenge 4 : Comparaison de Chaînes
 
-Écrivez un programme C qui lit un entier `n` et affiche tous les nombres premiers de 1 à `n`. Un nombre est considéré premier s'il est divisible uniquement par 1 et lui-même.
+Écrivez un programme C qui lit deux chaînes de caractères et compare si elles sont égales ou non. Affichez un message indiquant si les chaînes sont égales ou différentes.
 
-## Challenge 4 : Inversion d'un Entier
+## Challenge 5 : Inversion de Chaîne
 
-Écrivez un programme C qui lit un entier à plusieurs chiffres et l'affiche en ordre inverse sans utiliser de tableaux. Par exemple, si l'entrée est 12345, affichez 54321.
+Écrivez un programme C qui lit une chaîne de caractères et affiche la chaîne inversée. Par exemple, si la chaîne est "abcd", le programme doit afficher "dcba".
 
-## Challenge 5 : Somme des N Nombres
+## Challenge 6 : Compte des Occurrences d'un Caractère
 
-Écrivez un programme C qui demande à l’utilisateur un nombre entier `n` et calcule la somme des `n` premiers nombres naturels. Par exemple, si `n` est 5, la somme est 1 + 2 + 3 + 4 + 5 = 15.
+Écrivez un programme C qui lit une chaîne de caractères et un caractère, puis compte et affiche combien de fois le caractère apparaît dans la chaîne.
 
-## Challenge 6 : Facteurs d'un Nombre
+## Challenge 7 : Conversion en Majuscules
 
-Écrivez un programme C qui affiche tous les facteurs d'un nombre entier positif `n` entré par l’utilisateur. Par exemple, pour `n` = 36, affichez : 1, 2, 3, 4, 6, 9, 12, 18, 36.
+Écrivez un programme C qui lit une chaîne de caractères et convertit tous les caractères en majuscules. Affichez la chaîne modifiée.
 
-## Challenge 7 : Suite de Fibonacci
+## Challenge 8 : Conversion en Minuscules
 
-Écrivez un programme C qui génère les `n` premiers termes de la suite de Fibonacci, où `n` est entré par l’utilisateur. La suite de Fibonacci est définie comme suit : F(0) = 0, F(1) = 1, et F(n) = F(n-1) + F(n-2).
+Écrivez un programme C qui lit une chaîne de caractères et convertit tous les caractères en minuscules. Affichez la chaîne modifiée.
 
-## Challenge 8 : Recherche Dichotomique
+## Challenge 9 : Suppression des Espaces
 
-Écrivez un programme C qui implémente la recherche dichotomique dans un tableau trié d’entiers. Le programme doit demander à l’utilisateur un nombre et rechercher ce nombre dans le tableau en utilisant la méthode de recherche dichotomique.
+Écrivez un programme C qui lit une chaîne de caractères et supprime tous les espaces. Affichez la chaîne résultante.
 
-## Challenge 9 : Calcul de la Puissance
+## Challenge 10 : Trouver un Sous-String
 
-Écrivez un programme C qui calcule la puissance d'un nombre en utilisant une boucle `while`. Le programme doit demander la base (positive) et l'exposant (non négatif) et afficher la valeur résultante.
-
-## Challenge 10 : Générateur de Mot de Passe
-
-Écrivez un programme C qui génère un mot de passe aléatoire de longueur `n`, où `n` est entré par l’utilisateur. Le mot de passe doit contenir des lettres majuscules, des lettres minuscules, et des chiffres.
-
-## Challenge 11 : Moyenne des Nombres
-
-Écrivez un programme C qui lit une série de nombres positifs terminée par un zéro et calcule la moyenne de ces nombres. N’affichez pas le zéro dans le calcul de la moyenne.
-
-## Challenge 12 : Tri par Bulles
-
-Écrivez un programme C qui implémente l'algorithme de tri par bulles pour trier un tableau d’entiers. Le programme doit demander à l’utilisateur le nombre d’éléments, puis les éléments eux-mêmes, et enfin afficher le tableau trié.
-
-## Challenge 13 : Table de Multiplication avec Somme
-
-Écrivez un programme C qui demande un nombre à l’utilisateur et affiche la table de multiplication de 1 à 10 pour ce nombre. En plus, affichez la somme des produits.
-
-## Challenge 14 : Sélection de Sortie
-
-Écrivez un programme C qui affiche les jours de la semaine à l'utilisateur et lui demande de choisir un jour. Le programme doit afficher le jour sélectionné et les jours qui le suivent dans la semaine. Assurez-vous de gérer les jours de la semaine correctement (lundi, mardi, etc.).
-
-## Challenge 15 : Calcul de la Factorielle
-
-Écrivez un programme C qui calcule la factorielle d'un nombre entier `n` (n!) en utilisant une boucle `for`. La factorielle de `n` est le produit de tous les entiers positifs inférieurs ou égaux à `n`.
+Écrivez un programme C qui lit une chaîne de caractères principale et une sous-chaîne, puis vérifie si la sous-chaîne est présente dans la chaîne principale. Affichez un message indiquant si la sous-chaîne est trouvée ou non.
