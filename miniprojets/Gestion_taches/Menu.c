@@ -1,4 +1,6 @@
-int main() {
+#include "header.h"
+
+int Menu() {
     int choix;
 
     while (1) {

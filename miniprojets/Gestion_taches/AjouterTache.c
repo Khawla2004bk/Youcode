@@ -21,11 +21,10 @@ void AjouterTache() {
                 i--;
                 break;
             }
-            strcpy(tache[nb].ID, id);
-            }
         }
+    }
         
-        //strcpy(tache[nb].ID, id);
+        strcpy(tache[nb].ID, id);
         
         printf("Entrer le titre de la tache %d: ", i+1);
         scanf("%[^\n]", tache[nb].Titre);
@@ -47,5 +46,5 @@ void AjouterTache() {
         printf("\t%s | %s | %s | %s | %s\n", tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut);
         
         nb++;
-    }
+    
 }
