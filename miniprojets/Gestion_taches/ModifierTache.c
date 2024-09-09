@@ -8,18 +8,18 @@ void ModifierTache() {
     scanf("%s", id);
     getchar();
 
-    printf("Choisissez l'option convenable\n");
-    printf("1. Modifier la description d'une tâche.\n");
-    printf("2. Modifier le statut d'une tâche.\n");
-    printf("3. Modifier le deadline d'une tâche.\n");
-
-    printf("Entrer votre choix: ");
-    scanf("%d", &choix);
-    getchar();
-
     int i;
     for (i = 0; i < nb; i++) {
         if (strcmp(tache[i].ID, id) == 0) {
+            printf("Choisissez l'option convenable\n");
+            printf("1. Modifier la description d'une tâche.\n");
+            printf("2. Modifier le statut d'une tâche.\n");
+            printf("3. Modifier le deadline d'une tâche.\n");
+
+            printf("Entrer votre choix: ");
+            scanf("%d", &choix);
+            getchar();
+
             switch (choix) {
                 case 1:
                     printf("Entrer la nouvelle description: ");
@@ -40,8 +40,9 @@ void ModifierTache() {
                     printf("Choix invalide");
                     break;
             }
-        } 
+        }
+        printf("Tâche modifié:\n\tID: %s | Description: %s | Statut: %s | Deadline: %s\n", tache[i].ID, tache[i].Desc, tache[i].Statut, tache[i].Deadline);
+        return;
     }
-    printf("Tâche modifié:\n\tID: %s | Description: %s | Statut: %s | Deadline: %s\n", tache[i].ID, tache[i].Desc, tache[i].Statut, tache[i].Deadline);
-    return;
+    
 }

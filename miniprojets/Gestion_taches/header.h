@@ -30,7 +30,7 @@ void AfficherListe();
 void ModifierTache();
 void RechercherTache();
 void SupprimerTache();
-void Statistiques();
+//void Statistiques();
 void Menu();
 
 #endif

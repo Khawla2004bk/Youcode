@@ -12,8 +12,9 @@ void AjouterTache() {
         printf("Entrer l'identifiant de la tache %d: ", i+1);
         scanf("%[^\n]", id);
         getchar();
-
-        for (int j = 0; j < nb; j++) {
+        
+        int j;
+        for (j = 0; j < nb; j++) {
             if (strcmp(id, tache[j].ID) == 0) {
                 printf("ID déjà utilisé. Veuillez saisir nouveau id: ");
                 scanf("%[^\n]", id);
@@ -22,9 +23,10 @@ void AjouterTache() {
                 break;
             }
         }
-    }
-        
-        strcpy(tache[nb].ID, id);
+        if (strcmp(id, tache[j].ID) != 0) {
+            strcpy(tache[nb].ID, id);
+        }
+    
         
         printf("Entrer le titre de la tache %d: ", i+1);
         scanf("%[^\n]", tache[nb].Titre);
@@ -38,7 +40,7 @@ void AjouterTache() {
         scanf("%[^\n]", tache[nb].Deadline);
         getchar();
 
-        printf("Entrer le statut de la tache %d: (à réalise / en cours de réalisation / finalisée) ", i+1);
+        printf("Entrer le statut de la tache %d (à réaliser / en cours de réalisation / finalisée): ", i+1);
         scanf("%[^\n]", tache[nb].Statut);
         getchar();
 
@@ -46,5 +48,5 @@ void AjouterTache() {
         printf("\t%s | %s | %s | %s | %s\n", tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut);
         
         nb++;
-    
+    }
 }

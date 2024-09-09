@@ -1,6 +1,6 @@
 #include "header.h"
 
-int Menu() {
+void Menu() {
     int choix;
 
     while (1) {
@@ -34,7 +34,7 @@ int Menu() {
                 break;
             case 6:
                 printf("Quitter le programme.\n");
-                return 0;
+                exit(0);
             default:
                 printf("Choix invalide. Veuillez choisir entre 1 et 6.\n");
                 break;

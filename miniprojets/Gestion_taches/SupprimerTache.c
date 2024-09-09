@@ -12,7 +12,7 @@ void SupprimerTache() {
                 tache[j] = tache[j + 1];
             }
             nb--;
-            printf("Tache supprimé.\n");
+            printf("Tache supprimé avec succès.\n");
             return;
         }
     } 
