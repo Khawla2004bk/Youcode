@@ -21,12 +21,13 @@ Etudiant etudiant[1000];
 char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
 
 void AjouterEtudiant();
-void AfficherMenuDep();
+int AfficherMenuDep();
 void ModifierEtudiant();
 void AfficherMenuModifier();
 void AfficherInfos();
 void AfficherEtudiant();
 void CalculerMoyenne();
+int AfficherMenuCalcul();
 void RechercherEtudiant();
 void TrierEtudiant();
 void Statistiques();
