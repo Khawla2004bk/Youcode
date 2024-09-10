@@ -11,7 +11,7 @@ void AjouterTache() {
     for (int i = 0; i < n; i++) { 
         printf("\nL'identifiant de la tache %d: %d\n", i+1, nb+1);
         
-        strcpy(tache[nb].ID, id);
+        strcpy(tache[i].ID, id);
         
         printf("Entrer le titre de la tache %d: ", i+1);
         scanf("%[^\n]", tache[nb].Titre);
