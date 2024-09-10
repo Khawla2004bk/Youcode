@@ -29,6 +29,7 @@ void AfficherEtudiant();
 void CalculerMoyenne();
 int AfficherMenuCalcul();
 void RechercherEtudiant();
+int AfficherMenuRecherche();
 void TrierEtudiant();
 void Statistiques();
 
