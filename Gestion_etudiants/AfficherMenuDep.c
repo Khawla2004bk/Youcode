@@ -2,7 +2,7 @@
 
 void AfficherMenuDep() {
     int choix;
-    char *dep[] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
+    char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
 
     printf("Les departements possibles: \n");
     for (int i = 0; i < 12; i++) 
