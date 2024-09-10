@@ -21,6 +21,8 @@ Etudiant etudiant[1000];
 void AjouterEtudiant();
 void AfficherMenuDep();
 void ModifierEtudiant();
+void MenuModifier();
+void AfficherInfos();
 void AfficherEtudiant();
 void CalculerMoyenne();
 void RechercherEtudiant();
