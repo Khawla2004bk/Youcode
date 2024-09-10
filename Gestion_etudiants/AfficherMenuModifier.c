@@ -3,6 +3,6 @@
 void AfficherMenuModifier() {
 
     printf("Quelle information souhaitez-vous modifier ?\n");
-    printf("1. Nom\n2. Prenom\n3. Date de naissance\n4. Departement\n5. Note\n6. Toutes les informations\n");
+    printf("\t1. Nom\n\t2. Prenom\n\t3. Date de naissance\n\t4. Departement\n\t5. Note\n");
 
 }

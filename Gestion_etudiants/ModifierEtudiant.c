@@ -38,7 +38,9 @@ void ModifierEtudiant() {
                     break;
                 case 4:
                     printf("Entrer le nouveau departement: ");
-                    AfficherMenuDep();
+                    AfficherMenuDep(i);
+                    scanf("%[^\n]", etudiant[i].Departement);
+                    getchar();
                     printf("Modification effectuee avec succes!\n");
                     AfficherInfos(i);
                     break;
