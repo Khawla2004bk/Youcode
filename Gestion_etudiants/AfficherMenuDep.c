@@ -1,8 +1,7 @@
 #include "header.h"
 
-void AfficherMenuDep(int i) {
+int AfficherMenuDep() {
     int choix;
-    char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
 
     printf("\tLes departements possibles: \n");
     for (int i = 0; i < 12; i++) 
@@ -12,6 +11,5 @@ void AfficherMenuDep(int i) {
     scanf("%d", &choix);
     getchar();
 
-    strcpy(etudiant[i].Departement, dep[choix - 1]);
-
+    return choix;
 }

@@ -18,6 +18,8 @@ typedef struct {
 
 Etudiant etudiant[1000];
 
+char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
+
 void AjouterEtudiant();
 void AfficherMenuDep();
 void ModifierEtudiant();
