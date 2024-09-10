@@ -24,9 +24,9 @@ void AjouterEtudiant() {
         scanf("%[^\n]", etudiant[i].DateN);
         getchar();
 
+        
         printf("\tEntrer le departement de l'etudiant %d: ", i + 1);
-        scanf("%[^\n]", etudiant[i].Departement);
-        getchar();
+        AfficherMenuDep();
 
         printf("\tEntrer la note generale de l'etudiant %d: ", i + 1);
         scanf("%d", &etudiant[i].Note);

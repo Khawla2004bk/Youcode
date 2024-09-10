@@ -19,6 +19,7 @@ typedef struct {
 Etudiant etudiant[1000];
 
 void AjouterEtudiant();
+void AfficherMenuDep();
 void ModifierEtudiant();
 void AfficherEtudiant();
 void CalculerMoyenne();
