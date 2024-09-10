@@ -11,11 +11,7 @@ void AjouterTache() {
     for (int i = 0; i < n; i++) { 
         printf("\nL'identifiant de la tache %d: %d\n", i+1, nb+1);
         
-        
-        //if (strcmp(id, tache[j].ID) != 0) {
-        //   strcpy(tache[nb].ID, id);
-        //}
-    
+        strcpy(tache[nb].ID, id);
         
         printf("Entrer le titre de la tache %d: ", i+1);
         scanf("%[^\n]", tache[nb].Titre);
@@ -38,8 +34,9 @@ void AjouterTache() {
         struct tm tm = *localtime(&t);
         snprintf(tache[nb].Date, sizeof(tache[nb].Date), "%02d-%02d-%d", tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900);
     
+        AjouterCollab();
 
-        printf("Tache ajoutée avec succès.\n");
+        printf("\nTache ajoutée avec succès.\n");
         printf("\t%s | %s | %s | %s | %s | %s\n", tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut, tache[i].Date);
         
         nb++;

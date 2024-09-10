@@ -7,6 +7,7 @@
 #include <time.h>
 
 int nb = 0;
+int nbcollab = 0;
 
 typedef struct {
     char ID[30];
@@ -16,7 +17,6 @@ typedef struct {
     char Statut[30];
     char Date[30];
     Collaborateur collab[100];
-    int nbcollab;
 } Todo;
 
 Todo tache[100];
