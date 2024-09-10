@@ -17,7 +17,7 @@ void AfficherListe() {
         case 1:
             printf("Liste des tâches:\n");
             for (int i = 0; i < nb; i++) 
-                printf("Tache %d\n\tID: %s | Titre: %s | Description: %s | Deadline: %s | Statut: %s\n", i+1, tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut);
+                printf("Tache %d\n\tID: %s | Titre: %s | Description: %s | Deadline: %s | Statut: %s | Date: %s\n", i+1, tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut, tache[i].Date);
             break;
         
         case 2:
@@ -32,7 +32,7 @@ void AfficherListe() {
             }
             printf("Liste des tâches:\n");
             for (int i = 0; i < nb; i++) {
-                printf("Tache %d\n\tID: %s | Titre: %s | Description: %s | Deadline: %s | Statut: %s\n", i+1, tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut);
+                printf("Tache %d\n\tID: %s | Titre: %s | Description: %s | Deadline: %s | Statut: %s | Date: %s\n", i+1, tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut, tache[i].Date);
             }
             break;
 
@@ -48,8 +48,8 @@ void AfficherListe() {
             }
             printf("Liste des tâches:\n");
             for (int i = 0; i < nb; i++) {
-                printf("Tâche %d\n\tID: %s | Titre: %s | Description: %s | Deadline: %s | Statut: %s\n",
-                   i + 1, tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut);
+                printf("Tâche %d\n\tID: %s | Titre: %s | Description: %s | Deadline: %s | Statut: %s | Date: %s\n",
+                   i + 1, tache[i].ID, tache[i].Titre, tache[i].Desc, tache[i].Deadline, tache[i].Statut, tache[i].Date);
             }
             break;
 

@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <time.h>
 
 int nb = 0;
 
@@ -13,6 +14,9 @@ typedef struct {
     char Desc[200];
     char Deadline[30];
     char Statut[30];
+    char Date[30];
+    Collaborateur collab[100];
+    int nbcollab;
 } Todo;
 
 Todo tache[100];
@@ -23,14 +27,13 @@ typedef struct {
     char E[30];
 } Collaborateur;
 
-Collaborateur collab[100];
 
 void AjouterTache();
 void AfficherListe();
 void ModifierTache();
 void RechercherTache();
 void SupprimerTache();
-//void Statistiques();
+void Statistiques();
 void Menu();
 
 #endif

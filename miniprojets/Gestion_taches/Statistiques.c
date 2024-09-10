@@ -5,13 +5,13 @@ int Statistiques() {
     Todo proche = tache[0];
 
     for (int i = 0; i < nb; i++) {
-        if (strcmp(tache[i].Statut, "en cours de réalisation") == 0) 
+        if (strcmp(tache[i].Statut, "2") == 0) 
             enCours++;
         
-        else if (strcmp(tache[i].Statut, "finalisée") == 0) 
+        else if (strcmp(tache[i].Statut, "1") == 0) 
             finalise++;
         
-        else if (strcmp(tache[i].Statut, "à réaliser") == 0) 
+        else if (strcmp(tache[i].Statut, "0") == 0) 
             aRealiser++;
     
         if (DepasserDeadline(tache[i].Deadline)) 
