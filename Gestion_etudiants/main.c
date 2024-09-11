@@ -2,6 +2,7 @@
 
 int main() {
 
+    Data();
     Menu();
 
     return 0;

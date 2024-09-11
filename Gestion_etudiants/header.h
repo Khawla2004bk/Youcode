@@ -21,6 +21,8 @@ Etudiant etudiant[1000];
 
 char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
 
+
+
 void AjouterEtudiant();
 int AfficherMenuDep();
 void ModifierEtudiant();
@@ -42,4 +44,5 @@ void MeilleurNote();
 void EtudientParDep();
 void Menu();
 void EtudiantParSeuil()
+void Data();
 #endif

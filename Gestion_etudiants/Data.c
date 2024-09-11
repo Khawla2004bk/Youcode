@@ -1,6 +1,6 @@
 #include "header.h"
 
-void ajouterMultiplesEtudiants() {
+void Data() {
     // Remplir les données pour 10 étudiants
     char noms[10][50] = {"Dupont", "Durand", "Martin", "Bernard", "Dubois", "Thomas", "Robert", "Petit", "Roux", "Moreau"};
     char prenoms[10][50] = {"Jean", "Paul", "Marie", "Sophie", "Lucas", "Chloe", "Alex", "Emma", "Luca", "Anna"};
