@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Fonctions pour trier les étudiants par différents critères
+
 void TriNomCroissant() {
 
     for (int i = 0; i < nb - 1; i++) {
@@ -10,7 +12,10 @@ void TriNomCroissant() {
                 etudiant[j] = temp;
             }
         }
-        AfficherInfos(i);
+        // Affichage des étudiants triés
+        for (int i = 0; i < nb; i++) {
+            AfficherInfos(i);
+        }
     }
 
 }
@@ -25,7 +30,10 @@ void TriNomDecroissant() {
                 etudiant[j] = temp;
             }
         }
-        AfficherInfos(i);
+        // Affichage des étudiants triés
+        for (int i = 0; i < nb; i++) {
+            AfficherInfos(i);
+        }
     }
 
 }

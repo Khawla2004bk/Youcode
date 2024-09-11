@@ -45,7 +45,7 @@ void Menu() {
                 break;
 
             case 7:
-                TrierEtudiant();
+                MenuTri();
                 break;
 
             case 8:

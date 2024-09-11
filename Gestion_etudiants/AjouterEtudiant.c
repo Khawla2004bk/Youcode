@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Ajoute un ou plusieurs étudiants
+
 void AjouterEtudiant() {
     int n, choix;
 
@@ -31,16 +33,16 @@ void AjouterEtudiant() {
 
         if (choix >= 1 && choix <= 12) {
             strcpy(etudiant[nb].Departement, dep[choix - 1]);
-            nbdep[choix - 1]++;
+            nbdep[choix - 1]++;     // Incrémenter le nombre d'étudiants pour le département sélectionné
         }
         else {
             printf("Choix invalide.\n");
-            i--;
+            i--;    // Répète l'entrée pour l'étudiant actuel
             continue;
         }
 
         printf("\tEntrer la note generale de l'etudiant %d: ", i + 1);
-        scanf("%.2f", &etudiant[nb].Note);
+        scanf("%f", &etudiant[nb].Note);
         getchar();
 
         

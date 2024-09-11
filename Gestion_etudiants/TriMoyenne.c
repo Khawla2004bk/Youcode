@@ -10,9 +10,11 @@ void TriMoyenneCroissant() {
                 etudiant[j] = temp;
             }
         }
-        AfficherInfos(i);
+        // Affichage des étudiants triés
+        for (int i = 0; i < nb; i++) {
+            AfficherInfos(i);
+        }
     }
-
 }
 
 void TriMoyenneDecroissant() {
@@ -25,7 +27,10 @@ void TriMoyenneDecroissant() {
                 etudiant[j] = temp;
             }
         }
-        AfficherInfos(i);
+        // Affichage des étudiants triés
+        for (int i = 0; i < nb; i++) {
+            AfficherInfos(i);
+        }
     }
 
 }

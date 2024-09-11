@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Fonction pour rechercher un étudiant
+
 void RechercherEtudiant() {
     char nom[30], departement[50];
     int choix, cpt = 0;
@@ -35,7 +37,7 @@ void RechercherEtudiant() {
             }
         }
         if (cpt == 0)
-                printf("Departement non trouvé\n");
+            printf("Departement non trouvé\n");
     }
 
     else

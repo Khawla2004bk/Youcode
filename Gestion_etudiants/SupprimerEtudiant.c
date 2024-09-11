@@ -23,9 +23,13 @@ void SupprimerEtudiant() {
                 break;
             }
         }
+        printf("L'étudiant n'existe pas.\n");
     }
 
     else if (choix == 2) {
         printf("Suppression annulee!\n");
     }
+
+    else   
+        printf("Choix invalide.\n");
 }

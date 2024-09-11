@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Affiche le menu de calcul des moyennes
+
 int AfficherMenuCalcul() {
     int choix;
 

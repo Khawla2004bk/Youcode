@@ -5,9 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-int nb = 0;
-int nbdep[12] = {0};
+int nb = 0;         // Nombre total d'étudiants
+int nbdep[12] = {0};// // Nombre d'étudiants par département
 
+// Structure représentant un étudiant
 typedef struct {
     int ID;
     char Nom[30];
@@ -17,9 +18,12 @@ typedef struct {
     float Note;
 } Etudiant;
 
+// Tableau contenant tous les etudiants
 Etudiant etudiant[1000];
 
-char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique", "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
+// Tableaux pour les départements
+char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Physique",
+     "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
 
 
 
@@ -27,13 +31,13 @@ void AjouterEtudiant();
 int AfficherMenuDep();
 void ModifierEtudiant();
 void AfficherMenuModifier();
-void AfficherInfos();
+void AfficherInfos(int i);
 void AfficherEtudiant();
 void CalculerMoyenne();
 int AfficherMenuCalcul();
 void RechercherEtudiant();
 int AfficherMenuRecherche();
-void TrierEtudiant();
+void MenuTri();
 void TriNomCroissant();
 void TriNomDecroissant();
 void TriMoyenneCroissant();
@@ -43,6 +47,7 @@ void ReussiteDep();
 void MeilleurNote();
 void EtudientParDep();
 void Menu();
-void EtudiantParSeuil()
+void EtudiantParSeuil();
 void Data();
+
 #endif

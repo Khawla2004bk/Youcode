@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Affiche le menu de modification des informations d'un étudiant
+
 void AfficherMenuModifier() {
 
     printf("Quelle information souhaitez-vous modifier ?\n");

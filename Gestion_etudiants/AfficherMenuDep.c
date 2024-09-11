@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Affiche le menu des départements disponibles
+
 int AfficherMenuDep() {
     int choix;
 

@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Affiche le menu de recherche d'un étudiant
+
 int AfficherMenuRecherche() {
     int choix;
 

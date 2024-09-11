@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Calcule et affiche la moyenne des notes
+
 void CalculerMoyenne() {
     int choix, cpt = 0;
     float m, S = 0.0;
@@ -16,9 +18,10 @@ void CalculerMoyenne() {
                 cpt++;
             }
         }
+        
 
         if (cpt > 0) {
-            m = (float) S / cpt;
+            m = S / cpt;
             printf("La moyenne de departement %s est: %.2f\n", dep[choix - 1], m);
         }
         else
