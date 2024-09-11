@@ -32,8 +32,13 @@ int AfficherMenuCalcul();
 void RechercherEtudiant();
 int AfficherMenuRecherche();
 void TrierEtudiant();
+void TriNomCroissant();
+void TriNomDecroissant();
+void TriMoyenneCroissant();
+void TriMoyenneDecroissant();
 void Statistiques();
 void ReussiteDep();
 void MeilleurNote();
 void EtudientParDep();
+void Menu();
 #endif
