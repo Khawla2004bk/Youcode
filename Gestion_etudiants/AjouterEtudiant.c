@@ -17,7 +17,7 @@ void AjouterEtudiant() {
         getchar();
 
         printf("\tEntrer le prenom de l'etudiant %d: ", i + 1);
-        scanf("%s", etudiant[nb].Prenom);
+        scanf("%[^\n]", etudiant[nb].Prenom);
         getchar();
 
         printf("\tEntrer la date de naissance de l'etudiant %d (jj-mm-aaaa): ", i + 1);
@@ -27,15 +27,27 @@ void AjouterEtudiant() {
         
         printf("\tEntrer le departement de l'etudiant %d:\n", i + 1);
         choix = AfficherMenuDep();
-        strcpy(etudiant[nb].Departement, dep[choix - 1]);
+        
+
+        if (choix >= 1 && choix <= 12) {
+            strcpy(etudiant[nb].Departement, dep[choix - 1]);
+            nbdep[choix - 1]++;
+        }
+        else {
+            printf("Choix invalide.\n");
+            i--;
+            continue;
+        }
 
         printf("\tEntrer la note generale de l'etudiant %d: ", i + 1);
         scanf("%d", &etudiant[nb].Note);
         getchar();
 
+        
+
         printf("Etudiant ajoute avec succss!\n");
         AfficherInfos(nb);
-    
+
         nb++;
     }
 }

@@ -38,7 +38,7 @@ void ModifierEtudiant() {
                     break;
                 case 4:
                     printf("Entrer le nouveau departement: ");
-                    AfficherMenuDep(i);
+                    AfficherMenuDep();
                     scanf("%[^\n]", etudiant[i].Departement);
                     getchar();
                     printf("Modification effectuee avec succes!\n");
@@ -51,11 +51,28 @@ void ModifierEtudiant() {
                     printf("Modification effectuee avec succes!\n");
                     AfficherInfos(i);
                     break;
+                case 6:
+                    printf("Entrer le nouveau nom: ");
+                    scanf("%[^\n]", etudiant[i].Nom);
+                    printf("Entrer le nouveau prenom: ");
+                    scanf("%[^\n]", etudiant[i].Prenom);
+                    printf("Entrer la nouvelle date de naissance: ");
+                    scanf("%[^\n]", etudiant[i].DateN);
+                    printf("Entrer le nouveau departement: ");
+                    AfficherMenuDep(i);
+                    scanf("%[^\n]", etudiant[i].Departement);
+                    printf("Entrer la nouvelle note: ");
+                    scanf("%d", &etudiant[i].Note);
+                    printf("Modification effectuee avec succes!\n");
+                    AfficherInfos(i);
+                    break;
                 default:
                     printf("Choix invalide.\n");
                     break;
             }
+            return;
         }
     
     }
+    printf("L'etudiant n'existe pas.\n");
 }

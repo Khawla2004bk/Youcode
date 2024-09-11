@@ -6,6 +6,7 @@
 #include <string.h>
 
 int nb = 0;
+int nbdep[12] = {0};
 
 typedef struct {
     int ID;
@@ -32,5 +33,7 @@ void RechercherEtudiant();
 int AfficherMenuRecherche();
 void TrierEtudiant();
 void Statistiques();
-
+void ReussiteDep();
+void MeilleurNote();
+void EtudientParDep();
 #endif

@@ -23,7 +23,7 @@ void RechercherEtudiant() {
     }
 
     else if (choix == 2) {
-        printf("Entrez le departement de l'etudiant: ");
+        printf("Entrez le departement: ");
         scanf("%[^\n]", departement);
         getchar();
 
