@@ -41,4 +41,5 @@ void ReussiteDep();
 void MeilleurNote();
 void EtudientParDep();
 void Menu();
+void EtudiantParSeuil()
 #endif
