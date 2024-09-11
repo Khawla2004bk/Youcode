@@ -1,5 +1,6 @@
 #include "header.h"
 
+// Fonction pour trier les étudiants par statut de réussite
 void TriStatut() {
 
     printf("Statut de réussite des étudiants :\n");

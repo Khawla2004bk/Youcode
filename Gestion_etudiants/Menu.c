@@ -1,5 +1,6 @@
 #include "header.h"
 
+// Fonction qui affiche le menu principal et permet à l'utilisateur de choisir parmi les différentes options
 void Menu() {
     int choix;
 

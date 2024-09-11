@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Fonction pour afficher le nombre d'étudiants ayant réussi dans chaque département
+
 void ReussiteDep() {
     
     for (int i = 0; i < 12; i++) {

@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Fonction pour supprimer un étudiant
+
 void SupprimerEtudiant() {
     int id, choix;
 
@@ -15,6 +17,8 @@ void SupprimerEtudiant() {
     if (choix == 1) {
         for (int i = 0; i < nb; i++) {
             if (etudiant[i].ID == id) {
+                
+                // Suppression de l'étudiant en décalant les éléments suivants
                 for (int j = i; j < nb - 1; j++) {
                     etudiant[j] = etudiant[j + 1];
                 }

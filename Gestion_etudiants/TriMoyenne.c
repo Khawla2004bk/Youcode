@@ -1,5 +1,6 @@
 #include "header.h"
 
+// Fonction pour trier les étudiants par moyenne en ordre croissant
 void TriMoyenneCroissant() {
 
     for (int i = 0; i < nb - 1; i++) {
@@ -10,13 +11,14 @@ void TriMoyenneCroissant() {
                 etudiant[j] = temp;
             }
         }
-        // Affichage des étudiants triés
-        for (int i = 0; i < nb; i++) {
-            AfficherInfos(i);
-        }
+    }
+    // Affichage des étudiants triés
+    for (int i = 0; i < nb; i++) {
+        AfficherInfos(i);
     }
 }
 
+// Fonction pour trier les étudiants par moyenne en ordre décroissant
 void TriMoyenneDecroissant() {
 
     for (int i = 0; i < nb - 1; i++) {
@@ -27,10 +29,9 @@ void TriMoyenneDecroissant() {
                 etudiant[j] = temp;
             }
         }
-        // Affichage des étudiants triés
-        for (int i = 0; i < nb; i++) {
-            AfficherInfos(i);
-        }
     }
-
+    // Affichage des étudiants triés
+    for (int i = 0; i < nb; i++) {
+        AfficherInfos(i);
+    }
 }

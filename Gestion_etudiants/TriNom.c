@@ -1,6 +1,6 @@
 #include "header.h"
 
-// Fonctions pour trier les étudiants par différents critères
+// Fonction pour trier les étudiants par nom en ordre décroissant
 
 void TriNomCroissant() {
 
@@ -12,14 +12,14 @@ void TriNomCroissant() {
                 etudiant[j] = temp;
             }
         }
-        // Affichage des étudiants triés
-        for (int i = 0; i < nb; i++) {
-            AfficherInfos(i);
-        }
     }
-
+    // Affichage des étudiants triés
+    for (int i = 0; i < nb; i++) {
+        AfficherInfos(i);
+   }
 }
 
+// Fonction pour trier les étudiants par nom en ordre croissant
 void TriNomDecroissant() {
 
     for (int i = 0; i < nb - 1; i++) {
@@ -30,10 +30,9 @@ void TriNomDecroissant() {
                 etudiant[j] = temp;
             }
         }
-        // Affichage des étudiants triés
-        for (int i = 0; i < nb; i++) {
-            AfficherInfos(i);
-        }
     }
-
+    // Affichage des étudiants triés
+    for (int i = 0; i < nb; i++) {
+        AfficherInfos(i);
+    }
 }

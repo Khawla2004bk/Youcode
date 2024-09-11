@@ -1,6 +1,6 @@
 #include "header.h"
 
-// Affiche les étudiants dont la note est au-dessus ou égale d'un seuil donné
+// Affiche les étudiants dont la note est supérieure ou égale à un seuil donné par l'utilisateur
 
 void EtudiantParSeuil() {
     int seuil;

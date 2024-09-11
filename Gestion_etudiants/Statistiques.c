@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Fonction pour afficher les statistiques concernant les étudiants
+
 void Statistiques() {
 
     printf("Statistiques:\n");

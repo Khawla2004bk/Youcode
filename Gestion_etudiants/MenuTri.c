@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Fonction qui affiche le menu de tri et permet à l'utilisateur de choisir le critère de tri
+
 void MenuTri() {
     int choix;
 

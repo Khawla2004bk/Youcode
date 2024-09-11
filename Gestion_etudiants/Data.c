@@ -2,7 +2,7 @@
 
 void Data() {
 
-    // Remplir les données pour 10 étudiants
+    // Remplir automatiquement la base de données avec les informations de 10 étudiants prédéfinis.
     char noms[10][50] = {"Lemoine", "Garnier", "Fournier", "Gibert", "Goulin", "Leblanc", "Perrin", "Lemoine", "Gros", "Bouchard"};
     char prenoms[10][50] = {"Alice", "Julien", "Lucie", "Marc", "Claire", "Louis", "Nina", "Paul", "Sophie", "Antoine"};
     char dates[10][11] = {"1995-03-12", "1996-07-22", "1994-11-05", "1997-02-19", "1998-09-30", "1996-12-15", "1995-06-20", "1997-08-25", "1994-10-12", "1996-01-30"};

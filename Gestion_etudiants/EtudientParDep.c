@@ -1,6 +1,6 @@
 #include "header.h"
 
-// Affiche le nombre d'étudiants par département et ceux ayant une note au-dessus d'un seuil
+// Affiche le nombre d'étudiants par département et ceux ayant une note supérieure d'un seuil
 
 void EtudientParDep() {
     int seuil;
