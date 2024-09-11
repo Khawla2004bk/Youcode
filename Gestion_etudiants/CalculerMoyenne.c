@@ -1,8 +1,8 @@
 #include "header.h"
 
 void CalculerMoyenne() {
-    int choix, S = 0, cpt = 0;
-    float m;
+    int choix, cpt = 0;
+    float m, S = 0.0;
 
     choix = AfficherMenuCalcul();
     

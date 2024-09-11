@@ -40,7 +40,7 @@ void AjouterEtudiant() {
         }
 
         printf("\tEntrer la note generale de l'etudiant %d: ", i + 1);
-        scanf("%d", &etudiant[nb].Note);
+        scanf("%.2f", &etudiant[nb].Note);
         getchar();
 
         

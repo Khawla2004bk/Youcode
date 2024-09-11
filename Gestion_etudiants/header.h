@@ -14,7 +14,7 @@ typedef struct {
     char Prenom[15];
     char DateN[30];
     char Departement[20];
-    int Note;
+    float Note;
 } Etudiant;
 
 Etudiant etudiant[1000];

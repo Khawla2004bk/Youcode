@@ -46,7 +46,7 @@ void ModifierEtudiant() {
                     break;
                 case 5:
                     printf("Entrer la nouvelle note: ");
-                    scanf("%d", &etudiant[i].Note);
+                    scanf("%.2f", &etudiant[i].Note);
                     getchar();
                     printf("Modification effectuee avec succes!\n");
                     AfficherInfos(i);
@@ -62,7 +62,7 @@ void ModifierEtudiant() {
                     AfficherMenuDep(i);
                     scanf("%[^\n]", etudiant[i].Departement);
                     printf("Entrer la nouvelle note: ");
-                    scanf("%d", &etudiant[i].Note);
+                    scanf("%.2f", &etudiant[i].Note);
                     printf("Modification effectuee avec succes!\n");
                     AfficherInfos(i);
                     break;
