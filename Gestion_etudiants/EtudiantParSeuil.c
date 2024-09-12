@@ -5,6 +5,7 @@
 void EtudiantParSeuil() {
     int seuil;
 
+    printf("\n\tAfficher les etudiants ayant une moyenne superieure a un certain seuil\n");
     printf("Entrez le seuil: ");
     scanf("%d", &seuil);
     getchar();
@@ -13,4 +14,5 @@ void EtudiantParSeuil() {
         if (etudiant[i].Note >= seuil)
             AfficherInfos(i);
     }
+
 }
