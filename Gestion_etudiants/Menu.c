@@ -8,7 +8,7 @@ void Menu() {
         printf("Menu:\n");
         printf("\t1. Ajouter un etudiant\n");
         printf("\t2. Modifier un etudiant\n");
-        printf("\t3. Afficher les details d'un etudiant\n");
+        printf("\t3. Afficher les etudiants\n");
         printf("\t4. Calculer la moyenne generale d'un departement\n");
         printf("\t5. Rechercher un etudiant\n");
         printf("\t6. Supprimer un etudiant\n");

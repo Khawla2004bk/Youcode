@@ -26,28 +26,37 @@ char dep[12][50] = {"Biologie", "Mathematiques", "Informatique", "Chimie", "Phys
      "Histoire", "Philosophie", "Litterature", "Gestion", "Economie", "Droit", "Geographie"};
 
 
-
-void AjouterEtudiant();
-int AfficherMenuDep();
-void ModifierEtudiant();
-void AfficherMenuModifier();
-void AfficherInfos(int i);
-void AfficherEtudiant();
-void CalculerMoyenne();
-int AfficherMenuCalcul();
-void RechercherEtudiant();
-int AfficherMenuRecherche();
+// Fonctions de Menu
+void Menu();
 void MenuTri();
+int AfficherMenuRecherche();
+int AfficherMenuCalcul();
+void AfficherMenuModifier();
+int AfficherMenuDep();
+
+// fonctions de tri
 void TriNomCroissant();
 void TriNomDecroissant();
 void TriMoyenneCroissant();
 void TriMoyenneDecroissant();
+void TriStatut();
+
+// Statistiques
 void Statistiques();
-void ReussiteDep();
-void MeilleurNote();
 void EtudientParDep();
-void Menu();
+void MeilleurNote();
 void EtudiantParSeuil();
+void ReussiteDep();
+
+// Manipulation
+void ModifierEtudiant();
+void SupprimerEtudiant();
+
+void AjouterEtudiant();
+void AfficherInfos(int i);
+void CalculerMoyenne();
+void RechercherEtudiant();
+
 void Data();
 
 #endif

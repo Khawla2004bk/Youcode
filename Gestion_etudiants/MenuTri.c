@@ -10,6 +10,7 @@ void MenuTri() {
     printf("\t2. Par nom (Z a A)\n");
     printf("\t3. Par moyenne (croissant)\n");
     printf("\t4. Par moyenne (decroissant)\n");
+    printf("\t5. Par statut de reussite");
     printf("Entrez votre choix: ");
     scanf("%d", &choix);
     getchar();
@@ -27,6 +28,9 @@ void MenuTri() {
         break;
     case 4:
         TriMoyenneDecroissant();
+        break;
+    case 5:
+        TriStatut();
         break;
     default:
         printf("Choix invalide.\n");

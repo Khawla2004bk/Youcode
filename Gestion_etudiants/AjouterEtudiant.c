@@ -33,7 +33,7 @@ void AjouterEtudiant() {
 
         if (choix >= 1 && choix <= 12) {
             strcpy(etudiant[nb].Departement, dep[choix - 1]);
-            nbdep[choix - 1]++;     // Incrémenter le nombre d'étudiants pour le département sélectionné
+            //nbdep[choix - 1]++;     // Incrémenter le nombre d'étudiants pour le département sélectionné
         }
         else {
             printf("Choix invalide.\n");

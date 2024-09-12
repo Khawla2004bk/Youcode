@@ -18,5 +18,7 @@ void Statistiques() {
 
     printf("\n\tAfficher le nombre d'etudiants qui ont reusssi dans chaque departement\n");
     ReussiteDep();
+
+    
      
 }

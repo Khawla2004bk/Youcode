@@ -3,9 +3,9 @@
 void Data() {
 
     // Remplir automatiquement la base de données avec les informations de 10 étudiants prédéfinis.
-    char noms[10][50] = {"Lemoine", "Garnier", "Fournier", "Gibert", "Goulin", "Leblanc", "Perrin", "Lemoine", "Gros", "Bouchard"};
-    char prenoms[10][50] = {"Alice", "Julien", "Lucie", "Marc", "Claire", "Louis", "Nina", "Paul", "Sophie", "Antoine"};
-    char dates[10][11] = {"1995-03-12", "1996-07-22", "1994-11-05", "1997-02-19", "1998-09-30", "1996-12-15", "1995-06-20", "1997-08-25", "1994-10-12", "1996-01-30"};
+    char noms[10][50] = {"El Amrani", "Benali", "Ait El Caid", "Chouaib", "El Fassi", "Ouchrif", "Kabbaj", "Rami", "Jabri", "Berrada"};
+    char prenoms[10][50] = {"Fatima", "Mohamed", "Khadija", "Omar", "Nadia", "Youssef", "Sara", "Ali", "Zineb", "Hassan"};
+    char dates[10][11] = {"12-03-1995", "22-07-1996", "05-11-1994", "19-02-1997", "30-09-1998", "15-12-1996", "20-06-1995", "25-08-1997", "12-10-1994", "30-01-1996"};
     char departements[10][30] = {"Mathematiques", "Chimie", "Informatique", "Histoire", "Philosophie", "Biologie", "Physique", "Litterature", "Economie", "Gestion"};
     float notes[10] = {14.0, 16.5, 13.0, 15.5, 12.0, 17.0, 11.5, 13.5, 14.5, 16.0};
 
